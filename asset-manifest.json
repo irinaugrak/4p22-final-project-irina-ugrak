@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/4p22-final-project-irina-ugrak/static/css/main.e9db30be.css",
-    "main.js": "/4p22-final-project-irina-ugrak/static/js/main.ca9e6678.js",
+    "main.css": "/4p22-final-project-irina-ugrak/static/css/main.f1f685e7.css",
+    "main.js": "/4p22-final-project-irina-ugrak/static/js/main.1b79c3d4.js",
     "index.html": "/4p22-final-project-irina-ugrak/index.html",
-    "main.e9db30be.css.map": "/4p22-final-project-irina-ugrak/static/css/main.e9db30be.css.map",
-    "main.ca9e6678.js.map": "/4p22-final-project-irina-ugrak/static/js/main.ca9e6678.js.map"
+    "main.f1f685e7.css.map": "/4p22-final-project-irina-ugrak/static/css/main.f1f685e7.css.map",
+    "main.1b79c3d4.js.map": "/4p22-final-project-irina-ugrak/static/js/main.1b79c3d4.js.map"
   },
   "entrypoints": [
-    "static/css/main.e9db30be.css",
-    "static/js/main.ca9e6678.js"
+    "static/css/main.f1f685e7.css",
+    "static/js/main.1b79c3d4.js"
   ]
 }
