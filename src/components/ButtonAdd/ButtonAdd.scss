@@ -1,0 +1,19 @@
+@import '../../sass/variables';
+
+.btn-add {
+    min-width: 100px;
+    border: 2px solid $grey-medium;
+    background: transparent;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.2;
+    cursor: pointer;
+    color: $blue-main;
+
+    &:hover {
+        border-color: $red-main;
+        color: $red-main;
+    }
+}

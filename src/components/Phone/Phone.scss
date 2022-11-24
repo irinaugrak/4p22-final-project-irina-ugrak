@@ -1,0 +1,20 @@
+@import '../../sass/variables';
+
+.phone {
+    position: relative;
+    font-weight: 700;
+    text-decoration: none;
+    padding-left: 23px;
+    color: $blue-main;
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+        width: 13px;
+        height: 13px;
+        background: url('../../assets/img/phone.svg') no-repeat;
+    }
+}
