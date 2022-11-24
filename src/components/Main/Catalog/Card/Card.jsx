@@ -2,10 +2,11 @@ import PropTypes from "prop-types";
 import "./Card.scss";
 import "../../../ButtonAdd/ButtonAdd";
 import ButtonAdd from "../../../ButtonAdd/ButtonAdd";
+import { Link } from 'react-router-dom';
 
-function Card({ image, title, description, price }) {
+function Card({ id, image, title, price }) {
     return (
-        <div className="card">
+        <Link to={`products/${id}`} className="card">
             <div className="card__top">
                 <img src={image} alt="img" />
             </div>
@@ -14,7 +15,7 @@ function Card({ image, title, description, price }) {
                 <div className="card__price">{price} &#8381;</div>
                 <ButtonAdd className="card__btn" />
             </div>
-        </div>
+        </Link>
     );
 }
 

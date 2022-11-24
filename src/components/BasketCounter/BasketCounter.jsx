@@ -1,11 +1,12 @@
 import "./BasketCounter.scss";
+import { Link } from 'react-router-dom';
 
 function BasketCounter() {
     return (
         <div className="basket-counter">
-            <a className="basket-counter__title" href="./">
+            <Link to="basket" className="basket-counter__title" >
                 Корзина
-            </a>
+            </Link>
             <span className="basket-counter__num">0</span>
         </div>
     );

@@ -1,30 +1,27 @@
-import React, {useEffect, useState} from 'react';
+
 import './App.scss';
-import Header from './components/Header/Header';
-import Main from './components/Main/Main';
-import Footer from './components/Footer/Footer';
+import { Routes, Route } from 'react-router-dom';
+import IndexPage from './pages/IndexPage/IndexPage';
+import BasketPage from './pages/BasketPage/BasketPage';
+import DefaultLayout from './layouts/DefaultLayout';
+import SimpleLayout from "./layouts/SimplеLayout";
+import ProductPage from './pages/ProductPage/ProductPage';
 
 function App() {
-  const [products, setProducts] = useState([]);
-  useEffect(() => {
-    const currentUrl = window.location.href;
-    let url = "./4p22-final-project-irina-ugrak/data.json";
-    if (currentUrl.indexOf("irinaugrak.github.io") !== -1) {
-        url = "./data.json";
-    }
-    fetch(url)
-        .then((response) => response.json())
-        .then((result) => {
-            setProducts(result);
-        });
-  }, []);
-
   return (
-    <div className="App">
-      <Header />
-      <Main products={products}/>
-      <Footer />
-    </div>
+      <div className="App">
+          <Routes>
+                <Route path={"/"} element={<DefaultLayout />}>
+                    <Route index path={"/"} element={<IndexPage />} />
+                    <Route path={"products"}>
+                        <Route path={":userId"} element={<ProductPage />}/>
+                    </Route>
+                </Route>
+                <Route path={"/"} element={<SimpleLayout />}>
+                    <Route path={"basket"} element={<BasketPage />} />
+                </Route>
+          </Routes>
+      </div>
   );
 }
 
