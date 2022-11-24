@@ -1,0 +1,29 @@
+@import '../../sass/variables';
+
+.basket-counter {
+    &__title {
+        position: relative;
+        font-size: 14px;
+        text-decoration: none;
+        padding-left: 23px;
+        margin-right: 10px;
+        color: $blue-main;
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 0;
+            transform: translateY(-50%);
+            width: 18px;
+            height: 17px;
+            background: url('../../assets/img/basket.svg') no-repeat;
+        }
+    }
+
+    &__num {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+        font-size: 12px;
+    }
+}

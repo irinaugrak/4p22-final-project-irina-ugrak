@@ -1,0 +1,14 @@
+body {
+  min-width: 375px;
+  font-family: 'PT Root UI', sans-serif;
+  font-size: $size-default;
+  line-height: $line-default;
+  font-weight: normal;
+  font-style: normal;
+  color: $blue-main;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}

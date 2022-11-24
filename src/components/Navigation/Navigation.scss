@@ -1,0 +1,41 @@
+@import '../../sass/variables';
+
+.navigation {
+    width: 100%;
+
+    &__list {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__item {
+        cursor: pointer;
+        font-size: 12px;
+        font-weight: 700;
+        text-transform: uppercase;
+        padding: 17px 0;
+   
+        &:hover {
+            color: $red-main;
+        }
+    }
+}
+
+.navigation-header {
+    &__item {
+        &_current {
+            border-bottom: 2px solid $red-main;
+        }
+    }
+}
+
+.navigation-footer {
+    &__item {
+        color: $grey-light;
+    }
+}
+
+
+
+
