@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import "./ProductPage.scss";
+import Product from "../../components/Product/Product";
 
 function ProductPage() {
     const [ product, setProduct ] = useState({});
@@ -14,9 +15,8 @@ function ProductPage() {
     }, [userId]);
 
     return (
-        <div>
-            <div>{product.title}</div>
-            <img src={product.image} alt={product.title} />
+        <div className="ProductPage">
+            <Product product={product}/>
         </div>
     );
 }

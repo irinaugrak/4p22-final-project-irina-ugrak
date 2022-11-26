@@ -1,14 +1,13 @@
 import PropTypes from "prop-types";
 import "./Card.scss";
-import "../../../ButtonAdd/ButtonAdd";
-import ButtonAdd from "../../../ButtonAdd/ButtonAdd";
+import ButtonAdd from "../ButtonAdd/ButtonAdd";
 import { Link } from 'react-router-dom';
 
 function Card({ id, image, title, price }) {
     return (
         <Link to={`products/${id}`} className="card">
             <div className="card__top">
-                <img src={image} alt="img" />
+                <img src={image} className="card__img" alt={title} />
             </div>
             <div className="card__bottom">
                 <div className="card__title">{title}</div>
