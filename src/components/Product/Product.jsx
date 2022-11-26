@@ -6,8 +6,8 @@ function Product({ product }) {
         <div className="container">
             <div className="product">
                 <div className="product__details">
-                    <div className="product__img">
-                        <img src={product.image} width="300" alt={product.title}></img>
+                    <div className="product__img-cover">
+                        <img className="product__img" src={product.image} width="300" alt={product.title}></img>
                     </div>
                     <div className="product__info">
                         <div className="product__title">{product.title}</div>

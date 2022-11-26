@@ -13,7 +13,7 @@ function Header() {
                 <div className="container">
                     <div className="header-top-inner">
                         <Logo type="header" className="header-top-inner__logo"/>
-                        <Phone />
+                        <Phone type="header" />
                         <div className="header-top-inner__actions">
                             <BasketCounter />
                             <ButtonSign className="header-top-inner__btn-sign" />

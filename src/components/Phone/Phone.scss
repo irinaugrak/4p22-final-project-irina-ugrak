@@ -7,6 +7,10 @@
     padding-left: 23px;
     color: $blue-main;
 
+    &-footer {
+        color: $grey-main;
+    }
+
     &::before {
         content: "";
         position: absolute;

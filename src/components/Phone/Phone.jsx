@@ -1,8 +1,8 @@
 import './Phone.scss';
 
-function Phone() {
+function Phone( { type="header", className="" } ) {
     return (
-        <a className="phone" href="tel:+74995555555">
+        <a className={`phone phone-${type} ${className}`} href="tel:+74995555555">
             +7 (499) 555-55-55
         </a>
     );
