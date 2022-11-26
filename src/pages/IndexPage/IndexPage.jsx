@@ -1,11 +1,12 @@
 import "./IndexPage.scss";
-import Main from "../../components/Main/Main";
+import Caption from "../../components/Caption/Caption";
+import Catalog from "../../components/Catalog/Catalog";
 import { useEffect, useState } from "react";
 
 function IndexPage() {
     const [products, setProducts] = useState([]);
     useEffect(() => {
-        fetch("./data.json")
+        fetch("./4p22-final-project-irina-ugrak/data.json")
             .then((response) => response.json())
             .then((result) => {
                 setProducts(result);
@@ -13,7 +14,8 @@ function IndexPage() {
     }, []);
     return (
         <div className="IndexPage">
-            <Main products={products} />
+            <Caption />
+            <Catalog products={products} />
         </div>
     );
 }

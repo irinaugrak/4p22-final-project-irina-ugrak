@@ -11,15 +11,15 @@ function App() {
   return (
       <div className="App">
           <Routes>
-                <Route path={"/"} element={<DefaultLayout />}>
-                    <Route index path={"/"} element={<IndexPage />} />
-                    <Route path={"products"}>
-                        <Route path={":userId"} element={<ProductPage />}/>
-                    </Route>
-                </Route>
-                <Route path={"/"} element={<SimpleLayout />}>
-                    <Route path={"basket"} element={<BasketPage />} />
-                </Route>
+              <Route path={"/"} element={<DefaultLayout />}>
+                  <Route index path={"/"} element={<IndexPage />} />
+                  <Route path={"products"}>
+                      <Route path={":userId"} element={<ProductPage />} />
+                  </Route>
+              </Route>
+              <Route path={"/"} element={<SimpleLayout />}>
+                  <Route path={"basket"} element={<BasketPage />} />
+              </Route>
           </Routes>
       </div>
   );

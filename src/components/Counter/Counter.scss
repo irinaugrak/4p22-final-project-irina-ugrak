@@ -1,0 +1,46 @@
+@import "../../sass/variables";
+
+.counter {
+    display: flex;
+    align-items: center;
+
+    &__change {
+        position: relative;
+        width: 46px;
+        height: 36px;
+
+        &::before {
+            position: absolute;
+            content: '';
+            width: 18px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+
+    &__minus {
+        &::before {
+            height: 2px;
+            background: url("../../assets/img/minus.svg") no-repeat;
+        }
+    }
+
+    &__plus {
+        &::before {
+            height: 16px;
+            background: url("../../assets/img/plus.svg") no-repeat;
+        }
+
+    }
+
+    &__num {
+        width: 46px;
+        height: 36px;
+        border: 2px solid $grey-medium;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 300;
+        border-radius: 3px;
+    }
+}

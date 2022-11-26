@@ -1,5 +1,5 @@
 import "./Catalog.scss";
-import Card from "./Card/Card";
+import Card from "../Card/Card"
 
 function Catalog({ products }) {
     return (

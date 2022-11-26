@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import './Main.scss';
-import Catalog from './Catalog/Catalog';
-import Caption from './Caption/Caption';
+import Catalog from '../Catalog/Catalog';
+import Caption from '../Caption/Caption';
 
 function Main({ products }) {
     return (

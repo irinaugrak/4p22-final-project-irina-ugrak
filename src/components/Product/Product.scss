@@ -1,0 +1,94 @@
+@import "../../sass/variables";
+
+.product {
+    background-color: $white;
+    margin: 60px 0;
+    padding: 20px 120px;
+
+    &__img {
+        width: 50%;
+    }
+
+    &__info {
+        width: 50%;
+    }
+
+    &__details {
+        display: flex;
+    }
+
+    &__title {
+        font-size: 36px;
+        font-weight: 700;
+        margin-bottom: 7px;
+    }
+
+    &__code {
+        font-size: 16px;
+        color: $grey-main;
+        margin-bottom: 7px;
+    }
+
+    &__star {
+        position: relative;
+        padding-left: 30px;
+        margin-bottom: 20px;
+        color: $grey-dark;
+
+        &::before {
+            content: '';
+            position: absolute;
+            width: 24px;
+            height: 24px;
+            top: 50%;
+            left: 0;
+            transform: translateY(-50%);
+            background: url('../../assets/img/star.svg') no-repeat 50% 50%;
+        }
+    }
+
+    &__add-info {
+        position: relative;
+        font-size: 16px;
+        color: $grey-dark;
+        padding-left: 55px;
+        margin-top: 20px;
+                
+        &::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 30px;
+            transform: translate(-50%, -50%);
+            width: 20px;
+            height: 16px;
+            background-color: $grey-medium;
+            padding: 17px;
+            border-radius: 50%;
+        }
+    }
+
+    &__delivery {
+        &::before {
+            background: url('../../assets/img/delivery.svg') no-repeat 50% 50%;
+        }
+    }
+
+    &__return {
+        &::before {
+            background: url('../../assets/img/return.svg') no-repeat 50% 50%;
+        }
+    }
+
+    &__about-title {
+        margin-top: 40px;
+        margin-bottom: 20px;
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    &__about-description {
+        font-size: 16px;
+        color: $grey-dark;
+    }
+}
