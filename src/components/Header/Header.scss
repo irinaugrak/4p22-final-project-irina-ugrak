@@ -1,39 +1,44 @@
 @import '../../sass/variables';
 
-.header-top {
-    margin-bottom: 16px;
+.header {
+    background-color: $white;
 
-    &-inner {
-        display: flex;
-        align-items: center;
-        padding-top: 12px;
+    &-top {
+        margin-bottom: 16px;
 
-        &__logo {
-            margin-right: 40px;
-        }
-
-        &__actions {
+        &-inner {
             display: flex;
             align-items: center;
-            margin-left: auto;
-        }
+            padding-top: 12px;
 
-        &__btn-sign {
-            margin-left: 60px;
+            &__logo {
+                margin-right: 40px;
+            }
+
+            &__actions {
+                display: flex;
+                align-items: center;
+                margin-left: auto;
+            }
+
+            &__btn-sign {
+                margin-left: 60px;
+            }
+        }
+    }
+
+    &-bottom {
+        border-top: 1px solid $grey-light;
+        border-bottom: 1px solid $grey-light;
+
+        &-inner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
         }
     }
 }
 
-.header-bottom {
-    border-top: 1px solid $grey-light;
-    border-bottom: 1px solid $grey-light;
-
-    &-inner {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-}
 
 
 
