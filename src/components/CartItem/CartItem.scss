@@ -1,0 +1,53 @@
+@import "../../sass/variables";
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    position: relative;
+
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 1px;
+        background-color: $grey-medium;
+    }
+
+    &__img {
+        border-radius: 5px;
+    }
+
+    &__name {
+        margin-left: 25px;
+    }
+
+    &__title {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+
+    &__code {
+        color: $grey-main;
+    }
+
+    &__action {
+        display: flex;
+        align-items: center;
+        margin-left: auto;
+        width: 50%;
+        justify-content: space-between;
+    }
+
+    &__price {
+        font-size: 18px;
+        font-weight: 700;
+        margin-left: 40px;
+    }
+
+    &__cancel {
+        margin-left: 40px;
+    }
+}
