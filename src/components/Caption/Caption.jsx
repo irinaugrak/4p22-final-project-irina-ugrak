@@ -5,7 +5,7 @@ function Caption() {
         <section className="caption">
             <div className="container">
                 <div className="caption__wrapper">
-                    <h1 className="caption__title">Стулья и кресла</h1>
+                    <h1 className="caption__title">Диваны и кресла</h1>
                 </div>
             </div>
         </section>
