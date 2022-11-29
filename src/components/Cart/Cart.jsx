@@ -1,7 +1,12 @@
 import "./Cart.scss";
 import CartItem from "../CartItem/CartItem";
+import { useSelector } from "react-redux";
 
 function Cart() {
+    const count = Object.values(useSelector((state) => state.basket)).reduce((acc, item) => {
+        return (acc = acc + item);
+    }, 0);
+   
     const cartList = [
         {
             id: 1,
@@ -46,7 +51,7 @@ function Cart() {
                 </ul>
             </div>
             <div className="cart-footer">
-                <div className="cart-footer__num">3 товара</div>
+                <div className="cart-footer__num">{count} товара</div>
                 <div className="cart-footer__amount">
                     К оплате: 28000 &#8381;
                 </div>
