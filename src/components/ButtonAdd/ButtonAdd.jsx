@@ -1,8 +1,8 @@
 import './ButtonAdd.scss';
 
-function ButtonAdd({className}) {
+function ButtonAdd({className, onClick}) {
     return (
-        <button className={`btn-add ${className}`} type="button">
+        <button onClick={onClick} className={`btn-add ${className}`} type="button">
             В корзину
         </button>
     );

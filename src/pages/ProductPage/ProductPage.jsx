@@ -4,7 +4,7 @@ import "./ProductPage.scss";
 import Product from "../../components/Product/Product";
 
 function ProductPage() {
-    const [ product, setProduct ] = useState({});
+    const [product, setProduct] = useState({});
     const { userId } = useParams();
     useEffect(() => {
         fetch(`./${userId}.json`)
@@ -16,7 +16,12 @@ function ProductPage() {
 
     return (
         <div className="ProductPage">
-            <Product product={product}/>
+            <Product 
+                id={product.id} 
+                image={product.image} 
+                title={product.title} 
+                code={product.code}
+                description={product.description} />
         </div>
     );
 }
