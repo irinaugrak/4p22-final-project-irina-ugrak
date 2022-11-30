@@ -1,21 +1,22 @@
 import "./IndexPage.scss";
 import Caption from "../../components/Caption/Caption";
 import Catalog from "../../components/Catalog/Catalog";
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
+import { useSelector, useDispatch } from "react-redux";
+import { getProducts } from "../../store/products/productsSlice";
 
 function IndexPage() {
-    const [products, setProducts] = useState([]);
+    const [ products, isLoading ] = useSelector((state) => [ state.products.entities, state.products.loading ]);
+    const dispatch = useDispatch();
     useEffect(() => {
-        fetch("./4p22-final-project-irina-ugrak/data.json")
-            .then((response) => response.json())
-            .then((result) => {
-                setProducts(result);
-            });
+       dispatch(getProducts());
     }, []);
+    
     return (
         <div className="IndexPage">
             <Caption />
-            <Catalog products={products} />
+            { !isLoading && <Catalog products={products} /> }
+            { isLoading && <p>Загрузка данных...</p> }
         </div>
     );
 }
