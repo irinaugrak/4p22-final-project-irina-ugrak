@@ -1,4 +1,39 @@
+@import "../../sass/variables";
+
 .basket {
     margin: 60px auto;
     max-width: 870px;
+}
+
+.cart {
+    &-main {
+        padding: 50px;
+        background-color: $white;
+
+        &__title {
+            font-size: 36px;
+            font-weight: 700;
+            margin-bottom: 40px;
+        }
+    }
+
+    &-footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: $grey-medium;
+        padding: 30px 50px;
+
+        &__num {
+            color: $grey-dark;
+            font-size: 18px;
+            font-weight: 500;
+        }
+
+        &__amount {
+            font-size: 24px;
+            font-weight: 700;
+        }
+    }
+    
 }
