@@ -18,11 +18,9 @@ export const productsSlice = createSlice({
     
     extraReducers: {
         [getProducts.pending]: (state) => {
-            console.log("getProducts pending");
             state.loading = true;
         },
         [getProducts.fulfilled]: (state, { payload }) => {
-            console.log("getProducts done");
             state.loading = false;
             state.entities = payload;
         },
