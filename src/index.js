@@ -4,14 +4,17 @@ import './style.scss';
 import App from './App';
 import { BrowserRouter } from 'react-router-dom';
 import { Provider } from 'react-redux';
-import store from './store/store';
+import { persistor, store } from './store/store';
+import { PersistGate } from 'redux-persist/integration/react';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <Provider store={store}>
-    <BrowserRouter basename='4p22-final-project-irina-ugrak'>
-      <App />
-    </BrowserRouter>
+    <PersistGate loading={null} persistor={persistor}>
+      <BrowserRouter basename='4p22-final-project-irina-ugrak'>
+        <App />
+      </BrowserRouter>
+    </PersistGate>
   </Provider>
 );
 
