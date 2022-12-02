@@ -1,9 +1,14 @@
 import "./ButtonCancel.scss";
+import { deleteElFromBasket } from "../../store/basket/basketSlice";
+import { useDispatch } from "react-redux";
 
-function ButtonCancel({ className="" }) {
-    return (
-        <button className={`btn-cancel ${className}`}></button>
-    )
+function ButtonCancel({ className="", id }) {
+    const dispatch = useDispatch();
+    const deleteElFromBasketOnClick = () => {
+        console.log(1);
+        dispatch(deleteElFromBasket({ id: id }));
+    };
+    return <button onClick={deleteElFromBasketOnClick}  className={`btn-cancel ${className}`}></button>;
 }
 
 export default ButtonCancel;

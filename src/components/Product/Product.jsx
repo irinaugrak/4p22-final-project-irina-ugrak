@@ -1,7 +1,7 @@
 import "./Product.scss";
 import ProductBuy from "../ProductBuy/ProductBuy";
 
-function Product({ id, image, title, code, description }) {
+function Product({ id, image, title, code, price, description }) {
     return (
         <div className="container">
             <div className="product">
@@ -13,7 +13,7 @@ function Product({ id, image, title, code, description }) {
                         <div className="product__title">{title}</div>
                         <div className="product__code">Код товара {code}</div>
                         <div className="product__star">4.9</div>
-                        <ProductBuy id={id} />
+                        <ProductBuy id={id} price={price}/>
                         <div className="product__add-info product__delivery">Бесплатная доставка</div>
                         <div className="product__add-info product__return">Обмен и возврат в течение 14 дней</div>
                     </div>
