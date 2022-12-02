@@ -12,7 +12,7 @@ function Header() {
             <div className="header-top">
                 <div className="container">
                     <div className="header-top-inner">
-                        <Logo type="header" className="header-top-inner__logo"/>
+                        <Logo type="header" className="header-top-inner__logo" />
                         <Phone type="header" />
                         <div className="header-top-inner__actions">
                             <BasketCounter />
@@ -24,7 +24,7 @@ function Header() {
             <div className="header-bottom">
                 <div className="container">
                     <div className="header-bottom-inner">
-                        <Navigation type="header"/>
+                        <Navigation type="header" />
                         <Search />
                     </div>
                 </div>

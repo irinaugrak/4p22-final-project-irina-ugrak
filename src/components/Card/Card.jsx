@@ -7,14 +7,13 @@ import { addToBasket } from "../../store/basket/basketSlice";
 
 function Card({ id, image, title, price }) {
     const dispatch = useDispatch();
-    const count = 1;
     const buttonAddClick = (event) => {
         event.preventDefault();
         event.stopPropagation();
-        dispatch(addToBasket( { id, count } ));
+        dispatch(addToBasket( { id: id, count: 1 } ));
     }
     return (
-        <Link to={`products/${id}`} className="card">
+        <Link to={`${id}`} className="card">
             <div className="card__top">
                 <img src={image} className="card__img" alt={title} />
             </div>

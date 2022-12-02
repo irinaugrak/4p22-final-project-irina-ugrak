@@ -7,7 +7,7 @@ function ProductPage() {
     const [product, setProduct] = useState({});
     const { userId } = useParams();
     useEffect(() => {
-        fetch(`./${userId}.json`)
+        fetch(`/4p22-final-project-irina-ugrak/products/${userId}.json`)
             .then((response) => response.json())
             .then((result) => {
                 setProduct(result);
