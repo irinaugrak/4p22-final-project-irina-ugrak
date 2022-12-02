@@ -17,10 +17,11 @@ function ProductPage() {
     return (
         <div className="ProductPage">
             <Product 
-                id={product.id} 
+                id={userId} 
                 image={product.image} 
                 title={product.title} 
                 code={product.code}
+                price={product.price}
                 description={product.description} />
         </div>
     );
