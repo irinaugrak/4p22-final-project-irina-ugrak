@@ -3,7 +3,7 @@ import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 const getProducts = createAsyncThunk(
     'products/getProducts',
     async (thunkAPI) => {
-        const response = await fetch("./4p22-final-project-irina-ugrak/data.json");
+        const response = await fetch("/4p22-final-project-irina-ugrak/data.json");
         const result = await response.json();
         return result;
     }

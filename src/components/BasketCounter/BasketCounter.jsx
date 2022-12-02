@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import { useSelector } from "react-redux";
 
 function BasketCounter() {
-    
     const count = Object.values(useSelector((state) => {
         return state.basket;
     })).reduce((acc, item) => {
@@ -12,7 +11,7 @@ function BasketCounter() {
     
     return (
         <div className="basket-counter">
-            <Link to="basket" className="basket-counter__title" >
+            <Link to="/basket" className="basket-counter__title" >
                 Корзина
             </Link>
             <span className="basket-counter__num">{count}</span>

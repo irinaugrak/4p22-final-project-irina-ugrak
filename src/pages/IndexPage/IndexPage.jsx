@@ -1,22 +1,29 @@
 import "./IndexPage.scss";
 import Caption from "../../components/Caption/Caption";
 import Catalog from "../../components/Catalog/Catalog";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { getProducts } from "../../store/products/productsSlice";
+import { useParams } from "react-router-dom";
 
 function IndexPage() {
+    const { category } = useParams();
     const [ products, isLoading ] = useSelector((state) => [ state.products.entities, state.products.loading ]);
+    const [ categoryProducts, setCategoryProducts ] = useState(products);
     const dispatch = useDispatch();
     useEffect(() => {
        dispatch(getProducts());
     }, []);
-    
+
+    useEffect(() => {
+        setCategoryProducts(products.filter((item) => item.category === category));
+    }, [products, category]);
+
     return (
         <div className="IndexPage">
             <Caption />
-            { !isLoading && <Catalog products={products} /> }
-            { isLoading && <p>Загрузка данных...</p> }
+            {!isLoading && <Catalog products={categoryProducts} />}
+            {isLoading && <p>Загрузка данных...</p>}
         </div>
     );
 }
