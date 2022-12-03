@@ -21,7 +21,7 @@ function IndexPage() {
 
     return (
         <div className="IndexPage">
-            <Caption />
+            <Caption title={category}/>
             {!isLoading && <Catalog products={categoryProducts} />}
             {isLoading && <p>Загрузка данных...</p>}
         </div>
