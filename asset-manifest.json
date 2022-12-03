@@ -1,13 +1,36 @@
 {
   "files": {
-    "main.css": "/4p22-final-project-irina-ugrak/static/css/main.25827b53.css",
-    "main.js": "/4p22-final-project-irina-ugrak/static/js/main.22c57556.js",
+    "main.css": "/4p22-final-project-irina-ugrak/static/css/main.a5fa4695.css",
+    "main.js": "/4p22-final-project-irina-ugrak/static/js/main.f9ce5b99.js",
+    "static/media/Montserrat-Bold.woff": "/4p22-final-project-irina-ugrak/static/media/Montserrat-Bold.3155f256200b7d559607.woff",
+    "static/media/Montserrat-Regular.woff": "/4p22-final-project-irina-ugrak/static/media/Montserrat-Regular.4a3d63613a362f90a9e6.woff",
+    "static/media/PT Root UI_Bold.woff": "/4p22-final-project-irina-ugrak/static/media/PT Root UI_Bold.3852699d49c6669a8d52.woff",
+    "static/media/PT Root UI_Light.woff": "/4p22-final-project-irina-ugrak/static/media/PT Root UI_Light.d3363fd4961cd876ce43.woff",
+    "static/media/PT Root UI_Medium.woff": "/4p22-final-project-irina-ugrak/static/media/PT Root UI_Medium.3bcdce32e3d525a96b23.woff",
+    "static/media/PT Root UI_Regular.woff": "/4p22-final-project-irina-ugrak/static/media/PT Root UI_Regular.44fa135259a37f93de62.woff",
+    "static/media/Montserrat-Bold.woff2": "/4p22-final-project-irina-ugrak/static/media/Montserrat-Bold.d28745f2b8e5c12d3607.woff2",
+    "static/media/Montserrat-Regular.woff2": "/4p22-final-project-irina-ugrak/static/media/Montserrat-Regular.4ada7f2f580c676690f0.woff2",
+    "static/media/PT Root UI_Bold.woff2": "/4p22-final-project-irina-ugrak/static/media/PT Root UI_Bold.f2c5ec72dc82f11aef59.woff2",
+    "static/media/PT Root UI_Medium.woff2": "/4p22-final-project-irina-ugrak/static/media/PT Root UI_Medium.ed7f4187cb216fad4807.woff2",
+    "static/media/PT Root UI_Light.woff2": "/4p22-final-project-irina-ugrak/static/media/PT Root UI_Light.05fea395a2b63386f835.woff2",
+    "static/media/PT Root UI_Regular.woff2": "/4p22-final-project-irina-ugrak/static/media/PT Root UI_Regular.cebe56d83bb19e1f480f.woff2",
+    "static/media/MarckScript-Regular.woff": "/4p22-final-project-irina-ugrak/static/media/MarckScript-Regular.1c4de750b51df3679bbb.woff",
+    "static/media/MarckScript-Regular.woff2": "/4p22-final-project-irina-ugrak/static/media/MarckScript-Regular.c582561d0f00881fafcb.woff2",
+    "static/media/return.svg": "/4p22-final-project-irina-ugrak/static/media/return.776e3b77c779c7c18af9.svg",
+    "static/media/delivery.svg": "/4p22-final-project-irina-ugrak/static/media/delivery.60fca690c81624dd8604.svg",
+    "static/media/basket.svg": "/4p22-final-project-irina-ugrak/static/media/basket.88299b99fe0b52953f95.svg",
     "index.html": "/4p22-final-project-irina-ugrak/index.html",
-    "main.25827b53.css.map": "/4p22-final-project-irina-ugrak/static/css/main.25827b53.css.map",
-    "main.22c57556.js.map": "/4p22-final-project-irina-ugrak/static/js/main.22c57556.js.map"
+    "static/media/star.svg": "/4p22-final-project-irina-ugrak/static/media/star.550f395aa4f18050d763.svg",
+    "static/media/cancel.svg": "/4p22-final-project-irina-ugrak/static/media/cancel.006e81c4fce95d3f0588.svg",
+    "static/media/phone.svg": "/4p22-final-project-irina-ugrak/static/media/phone.44b653ff9959d8801a6a.svg",
+    "static/media/plus.svg": "/4p22-final-project-irina-ugrak/static/media/plus.c3f5472b4229a114d36b.svg",
+    "static/media/minus.svg": "/4p22-final-project-irina-ugrak/static/media/minus.bb4b56ca1e83ac0d0716.svg",
+    "static/media/user.svg": "/4p22-final-project-irina-ugrak/static/media/user.c5522c2999bbc7131c0d.svg",
+    "main.a5fa4695.css.map": "/4p22-final-project-irina-ugrak/static/css/main.a5fa4695.css.map",
+    "main.f9ce5b99.js.map": "/4p22-final-project-irina-ugrak/static/js/main.f9ce5b99.js.map"
   },
   "entrypoints": [
-    "static/css/main.25827b53.css",
-    "static/js/main.22c57556.js"
+    "static/css/main.a5fa4695.css",
+    "static/js/main.f9ce5b99.js"
   ]
 }

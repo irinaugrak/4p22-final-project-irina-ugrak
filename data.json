@@ -1,42 +1,72 @@
 [
     {
         "id": "1",
-        "category": "chairs-and-armchairs",
-        "image": "https://dl.dropbox.com/s/xv4dt4ws64n8sn0/goa.png?dl=0",
-        "title": "Кресло Гоа",
-        "description": "Кресло Гоа. Описание",
-        "price": 12499
+        "category": "tables-and-chairs",
+        "image": "https://dl.dropbox.com/s/kg056w1espwqv5v/chair1.jpg?dl=0",
+        "title": "Стул Баланс",
+        "price": 6999
     },
     {
         "id": "2",
-        "category": "chairs-and-armchairs",
-        "image": "https://dl.dropbox.com/s/xv4dt4ws64n8sn0/goa.png?dl=0",
-        "title": "Кресло Гоа",
-        "description": "Кресло Гоа. Описание",
+        "category": "sofas-and-armchairs",
+        "image": "https://dl.dropbox.com/s/c8of0tk3rpjmj9u/chair2.jpg?dl=0",
+        "title": "Кресло Ханна",
         "price": 12499
     },
     {
         "id": "3",
-        "category": "chairs-and-armchairs",
-        "image": "https://dl.dropbox.com/s/xv4dt4ws64n8sn0/goa.png?dl=0",
+        "category": "sofas-and-armchairs",
+        "image": "https://dl.dropbox.com/s/y29ewh9409kr7r2/chair3.jpg?dl=0",
         "title": "Кресло Гоа",
-        "description": "Кресло Гоа. Описание",
-        "price": 12499
+        "price": 14499
     },
     {
         "id": "4",
-        "category": "chairs-and-armchairs",
-        "image": "https://dl.dropbox.com/s/xv4dt4ws64n8sn0/goa.png?dl=0",
-        "title": "Кресло Гоа",
-        "description": "Кресло Гоа. Описание",
-        "price": 12499
+        "category": "tables-and-chairs",
+        "image": "https://dl.dropbox.com/s/oe5v3babg34joyg/chair4.jpg?dl=0",
+        "title": "Стул Рикардо",
+        "price": 4499
     },
     {
         "id": "5",
-        "category": "chairs-and-armchairs",
-        "image": "https://dl.dropbox.com/s/xv4dt4ws64n8sn0/goa.png?dl=0",
-        "title": "Кресло Гоа",
-        "description": "Кресло Гоа. Описание",
-        "price": 12499
+        "category": "sofas-and-armchairs",
+        "image": "https://dl.dropbox.com/s/zp4zb64wi8xasbk/chair5.jpg?dl=0",
+        "title": "Кресло Мильтон",
+        "price": 16499
+    },
+    {
+        "id": "6",
+        "category": "tables-and-chairs",
+        "image": "https://dl.dropbox.com/s/kg056w1espwqv5v/chair1.jpg?dl=0",
+        "title": "Стул Баланс",
+        "price": 6999
+    },
+    {
+        "id": "7",
+        "category": "tables-and-chairs",
+        "image": "https://dl.dropbox.com/s/kg056w1espwqv5v/chair1.jpg?dl=0",
+        "title": "Стул Баланс",
+        "price": 6999
+    },
+    {
+        "id": "8",
+        "category": "tables-and-chairs",
+        "image": "https://dl.dropbox.com/s/kg056w1espwqv5v/chair1.jpg?dl=0",
+        "title": "Стул Баланс",
+        "price": 6999
+    },
+    {
+        "id": "9",
+        "category": "tables-and-chairs",
+        "image": "https://dl.dropbox.com/s/kg056w1espwqv5v/chair1.jpg?dl=0",
+        "title": "Стул Баланс",
+        "price": 6999
+    },
+    {
+        "id": "10",
+        "category": "tables-and-chairs",
+        "image": "https://dl.dropbox.com/s/kg056w1espwqv5v/chair1.jpg?dl=0",
+        "title": "Стул Баланс",
+        "price": 6999
     }
 ]
