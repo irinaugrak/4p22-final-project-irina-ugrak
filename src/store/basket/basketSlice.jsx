@@ -4,6 +4,14 @@ export const basketSlice = createSlice({
     name: "basket",
     initialState: {},
     reducers: {
+        addToBasketFromCatalog(state, { payload } ) {
+            if(state[payload.id]) {
+                state[payload.id] = state[payload.id] + payload.count;
+            } else {
+                state[payload.id] = payload.count;
+            }
+        },
+
         addToBasket(state, { payload }) {
             state[payload.id] = payload.count;
            
@@ -21,6 +29,6 @@ export const basketSlice = createSlice({
     },
 });
 
-export const { addToBasket, deleteFromBasket, deleteElFromBasket } = basketSlice.actions;
+export const { addToBasket, addToBasketFromCatalog, deleteFromBasket, deleteElFromBasket } = basketSlice.actions;
 
 export default basketSlice.reducer;

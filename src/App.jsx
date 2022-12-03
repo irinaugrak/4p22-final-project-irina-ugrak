@@ -1,12 +1,17 @@
 import "./App.scss";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, useNavigate } from "react-router-dom";
 import IndexPage from "./pages/IndexPage/IndexPage";
 import BasketPage from "./pages/BasketPage/BasketPage";
 import DefaultLayout from "./layouts/DefaultLayout";
 import SimpleLayout from "./layouts/SimplеLayout";
 import ProductPage from "./pages/ProductPage/ProductPage";
+import { useEffect } from "react";
 
 function App() {
+    const navigate = useNavigate();
+    useEffect(() => {
+        navigate("/sofas-and-armchairs");
+    }, [])
     return (
         <div className="App">
             <Routes>
@@ -25,5 +30,7 @@ function App() {
         </div>
     );
 }
+
+
 
 export default App;

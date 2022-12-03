@@ -19,6 +19,14 @@
             height: 17px;
             background: url('../../assets/img/basket.svg') no-repeat;
         }
+
+        &:hover {
+            color: $red-main;
+        }
+    }
+
+    &:hover &__title::before {
+        background: url('../../assets/img/basket-red.svg') no-repeat;
     }
 
     &__num {

@@ -3,14 +3,15 @@ import "./Card.scss";
 import ButtonAdd from "../ButtonAdd/ButtonAdd";
 import { Link } from 'react-router-dom';
 import { useDispatch } from "react-redux";
-import { addToBasket } from "../../store/basket/basketSlice";
+import { addToBasketFromCatalog } from "../../store/basket/basketSlice";
 
 function Card({ id, image, title, price }) {
     const dispatch = useDispatch();
     const btnAddClick = (event) => {
+        
         event.preventDefault();
         event.stopPropagation();
-        dispatch(addToBasket({ id: id, count: 1 }));
+        dispatch(addToBasketFromCatalog({ id: id, count: 1 }));
     };
     return (
         <Link to={`${id}`} className="card">
