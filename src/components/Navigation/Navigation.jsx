@@ -5,12 +5,12 @@ function Navigation({type}) {
     return (
         <nav className={`navigation navigation-${type}`}>
             <ul className={`navigation__list navigation-${type}__list`}>
-                <Link to={"/sofas-and-armchairs"}>
+                <Link to={"/sofas-and-armchairs"} className="navigation__link">
                     <li className={`navigation__item navigation-${type}__item navigation-${type}__item_current`}>
                         Диваны и кресла
                     </li>
                 </Link>
-                <Link to={"/tables-and-chairs"}>
+                <Link to={"/tables-and-chairs"} className="navigation__link">
                     <li className={`navigation__item navigation-${type}__item`}>Столы и стулья</li>
                 </Link>
 

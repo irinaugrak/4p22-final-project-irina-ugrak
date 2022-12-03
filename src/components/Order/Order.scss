@@ -1,0 +1,51 @@
+@import "../../sass/variables";
+
+.order {
+    margin: 60px auto;
+    max-width: 870px;
+
+    &__form {
+        width: 50%;
+    }
+
+    &__title {
+        font-size: 36px;
+        font-weight: 700;
+        margin-bottom: 40px;
+    }
+
+    &__chapter {
+        margin-bottom: 40px;
+    }
+
+    &__chapter-title {
+        font-size: 20px;
+        font-weight: 700;
+        margin-bottom: 25px;
+    }
+
+    &__form-group {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 25px;
+    }
+
+    &__adress-detail {
+        display: flex;
+        justify-content: space-between;
+
+        & input {
+            width: 30%;
+        }
+    }
+
+    &__error {
+        font-size: 13px;
+        font-weight: 700;
+        color: $red-main;
+    }
+
+    &__btn {
+        width: 100%;
+    }
+}

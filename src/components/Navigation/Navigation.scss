@@ -3,6 +3,11 @@
 .navigation {
     width: 100%;
 
+    &__link {
+        text-decoration: none;
+        color: $blue-main;
+    }
+
     &__list {
         display: flex;
         align-items: center;

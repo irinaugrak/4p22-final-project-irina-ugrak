@@ -1,0 +1,12 @@
+@import "../../sass/variables";
+
+.textarea {
+    border: 2px solid $grey-medium;
+    padding: 14px;
+    font-size: 18px;
+    color: $grey-dark;
+
+    &::placeholder {
+        color: $grey-ccc;
+    }
+}

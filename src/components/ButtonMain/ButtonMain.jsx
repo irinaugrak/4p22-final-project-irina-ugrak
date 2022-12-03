@@ -1,8 +1,8 @@
 import "./ButtonMain.scss";
 
-function ButtonMain( { title } ) {
+function ButtonMain( { title, className, onClick } ) {
     return (
-        <button className="btn-main">{title}</button>
+        <button onClick={onClick} className={`btn-main ${className}`}>{title}</button>
     )
 }
 

@@ -10,8 +10,8 @@ function Basket() {
     const basket = useSelector(state => state.basket);
     
     return (
-        <div className="basket">
-            <section className="cart">
+        <section className="basket">
+            <div className="cart">
                 <div className="cart-main">
                     <h1 className="cart-main__title">Корзина</h1>
                     <ul className="cart-main__list">
@@ -48,8 +48,8 @@ function Basket() {
                         &#8381;
                     </div>
                 </div>
-            </section>
-        </div>
+            </div>
+        </section>
     );
 }
 
