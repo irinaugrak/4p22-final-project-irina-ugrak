@@ -25,7 +25,7 @@ function IndexPage() {
         console.log('products', products);
         setCategoryProducts(
             products.filter(
-                (item) => item.category === category && item.title.toLowerCase().includes(search.payload.toLowerCase())
+                (item) => item.category === category && item.title.toLowerCase().includes(search.toLowerCase())
             )
         );
     }, [products, category, search]);
