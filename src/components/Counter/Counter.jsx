@@ -12,14 +12,18 @@ function Counter({ id }) {
         if (countInBasket) {
             setCount(countInBasket);
         }
-    }, []);
+    }, [countInBasket]);
     
-    const addToBasketOnClick = () => {
+    const addToBasketOnClick = (event) => {
+        event.preventDefault();
+        event.stopPropagation();
         setCount(count + 1);
         dispatch(addToBasket( { id: id, count: count + 1 }));
     };
 
-    const deleteFromBasketOnClick = () => {
+    const deleteFromBasketOnClick = (event) => {
+        event.preventDefault();
+        event.stopPropagation();
         if(count >= 1) {
             setCount(count - 1);
             dispatch(deleteFromBasket({ id: id, count: count - 1 }));

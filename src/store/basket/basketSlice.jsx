@@ -10,6 +10,8 @@ export const basketSlice = createSlice({
             } else {
                 state[payload.id] = payload.count;
             }
+
+            return state;
         },
 
         addToBasket(state, { payload }) {

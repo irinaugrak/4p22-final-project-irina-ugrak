@@ -8,6 +8,7 @@ function Basket() {
     }, 0);
     const products = useSelector(state => state.products.entities);
     const basket = useSelector(state => state.basket);
+    console.log(basket);
     
     return (
         <section className="basket">
