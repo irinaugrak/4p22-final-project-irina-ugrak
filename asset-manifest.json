@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/4p22-final-project-irina-ugrak/static/css/main.6d68e4a5.css",
+    "main.css": "/4p22-final-project-irina-ugrak/static/css/main.e458569c.css",
     "main.js": "/4p22-final-project-irina-ugrak/static/js/main.6e360dfd.js",
     "static/media/Montserrat-Bold.woff": "/4p22-final-project-irina-ugrak/static/media/Montserrat-Bold.3155f256200b7d559607.woff",
     "static/media/Montserrat-Regular.woff": "/4p22-final-project-irina-ugrak/static/media/Montserrat-Regular.4a3d63613a362f90a9e6.woff",
@@ -28,11 +28,11 @@
     "static/media/plus.svg": "/4p22-final-project-irina-ugrak/static/media/plus.c3f5472b4229a114d36b.svg",
     "static/media/minus.svg": "/4p22-final-project-irina-ugrak/static/media/minus.bb4b56ca1e83ac0d0716.svg",
     "static/media/user.svg": "/4p22-final-project-irina-ugrak/static/media/user.c5522c2999bbc7131c0d.svg",
-    "main.6d68e4a5.css.map": "/4p22-final-project-irina-ugrak/static/css/main.6d68e4a5.css.map",
+    "main.e458569c.css.map": "/4p22-final-project-irina-ugrak/static/css/main.e458569c.css.map",
     "main.6e360dfd.js.map": "/4p22-final-project-irina-ugrak/static/js/main.6e360dfd.js.map"
   },
   "entrypoints": [
-    "static/css/main.6d68e4a5.css",
+    "static/css/main.e458569c.css",
     "static/js/main.6e360dfd.js"
   ]
 }
