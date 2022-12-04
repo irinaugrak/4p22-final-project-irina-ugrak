@@ -1,0 +1,32 @@
+@import "../../sass/variables";
+
+.search {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+
+    &::before {
+        content: '';
+        position: absolute;
+        width: 14px;
+        height: 14px;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 20px;
+        background: url("../../assets/img/search.svg") no-repeat;
+    }
+
+    &__input {
+        width: 370px;
+        border-top:  none;
+        border-bottom: none;
+        border-left: 1px solid $grey-light;
+        border-right: 1px solid $grey-light;
+        padding: 17px 20px;
+        color: $blue-main;
+
+        &:placeholder {
+            color: $grey-medium;
+        }
+    }
+}

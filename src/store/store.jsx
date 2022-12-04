@@ -4,6 +4,7 @@ import productsSlice from "./products/productsSlice";
 import { persistReducer, persistStore } from "redux-persist";
 import storage from "redux-persist/lib/storage";
 import thunk from 'redux-thunk';
+import searchSlice from "./search/searchSlice";
 
 const persistConfig = {
     key: 'products',
@@ -12,7 +13,8 @@ const persistConfig = {
 
 const rootReducer = combineReducers({
     basket: basketReducer,
-    products: productsSlice
+    products: productsSlice,
+    search: searchSlice
 });
 
 const persistedReducer = persistReducer(persistConfig, rootReducer );

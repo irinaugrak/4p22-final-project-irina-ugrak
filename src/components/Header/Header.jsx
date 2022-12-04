@@ -25,7 +25,7 @@ function Header() {
                 <div className="container">
                     <div className="header-bottom-inner">
                         <Navigation type="header" />
-                        <Search />
+                        <Search className="header-bottom-inner__search" />
                     </div>
                 </div>
             </div>

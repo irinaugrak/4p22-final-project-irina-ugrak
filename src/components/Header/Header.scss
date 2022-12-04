@@ -35,6 +35,10 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
+
+            &__search {
+                margin-left: 20px;
+            }
         }
     }
 }

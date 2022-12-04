@@ -24,12 +24,30 @@ function Navigation({type}) {
                         Столы и стулья
                     </li>
                 </Link>
-
-                <li className={`navigation__item navigation-${type}__item`}>
-                    Шкафы и стеллажи
-                </li>
-                <li className={`navigation__item navigation-${type}__item`}>Кровати и матрасы</li>
-                <li className={`navigation__item navigation-${type}__item`}>Комоды и тумбы</li>
+                <Link to={"/cabinets-and-shelving"} className="navigation__link">
+                    <li
+                        className={`navigation__item navigation-${type}__item ${
+                            category === "cabinets-and-shelving" ? `navigation-${type}__item_current` : ""
+                        }`}>
+                        Шкафы и стеллажи
+                    </li>
+                </Link>
+                <Link to={"/beds-and-mattresses"} className="navigation__link">
+                    <li
+                        className={`navigation__item navigation-${type}__item ${
+                            category === "beds-and-mattresses" ? `navigation-${type}__item_current` : ""
+                        }`}>
+                        Кровати и матрасы
+                    </li>
+                </Link>
+                <Link to={"/chests-of-drawers-and-cabinets"} className="navigation__link">
+                    <li
+                        className={`navigation__item navigation-${type}__item ${
+                            category === "chests-of-drawers-and-cabinets" ? `navigation-${type}__item_current` : ""
+                        }`}>
+                        Комоды и тумбы
+                    </li>
+                </Link>
             </ul>
         </nav>
     );

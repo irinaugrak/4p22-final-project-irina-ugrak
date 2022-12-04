@@ -8,16 +8,25 @@ import { useParams } from "react-router-dom";
 
 function IndexPage() {
     const { category } = useParams();
+
+    const search = useSelector((state) => state.search);
     const [ products, isLoading ] = useSelector((state) => [ state.products.entities, state.products.loading ]);
+
     const [ categoryProducts, setCategoryProducts ] = useState(products);
+
     const dispatch = useDispatch();
+
     useEffect(() => {
        dispatch(getProducts());
     }, []);
 
     useEffect(() => {
-        setCategoryProducts(products.filter((item) => item.category === category));
-    }, [products, category]);
+        setCategoryProducts(
+            products.filter(
+                (item) => item.category === category && item.title.toLowerCase().includes(search.payload.toLowerCase())
+            )
+        );
+    }, [products, category, search]);
 
     return (
         <div className="IndexPage">
