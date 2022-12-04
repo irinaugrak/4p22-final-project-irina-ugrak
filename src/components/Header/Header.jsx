@@ -13,7 +13,7 @@ function Header() {
                 <div className="container">
                     <div className="header-top-inner">
                         <Logo type="header" className="header-top-inner__logo" />
-                        <Phone type="header" />
+                        <Phone type="header" className="header-top-inner__phone" />
                         <div className="header-top-inner__actions">
                             <BasketCounter />
                             <ButtonSign className="header-top-inner__btn-sign" />
@@ -24,7 +24,7 @@ function Header() {
             <div className="header-bottom">
                 <div className="container">
                     <div className="header-bottom-inner">
-                        <Navigation type="header" />
+                        <Navigation type="header" className="header-bottom-inner__navigation" />
                         <Search className="header-bottom-inner__search" />
                     </div>
                 </div>

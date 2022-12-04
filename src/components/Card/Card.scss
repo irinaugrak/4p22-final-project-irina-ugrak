@@ -45,10 +45,36 @@
     &__price {
         font-size: 24px;
         font-weight: 700;
+        margin-bottom: 10px;
     }
 
     &:hover {
         box-shadow: 0 0 10px 5px rgb(221 221 221);
-        // box-shadow: 0px 9px 21px 0px rgba(168, 172, 185, 0.44);
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .card {
+        width: calc(33% - 30px);
+        flex: 0 0 calc(33% - 30px);
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .card {
+        width: 100%;
+        flex: 0 0 100%;
+        flex-direction: row;
+        justify-content: center;
+        min-height: 280px;
+
+        &__bottom {
+            flex-grow: 0;
+            margin-left: 30px;
+        }
+
+        &__btn {
+            margin: auto;
+        }
     }
 }

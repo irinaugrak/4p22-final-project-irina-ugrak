@@ -28,5 +28,18 @@
         &:placeholder {
             color: $grey-medium;
         }
+
+        &:focus {
+            border: 1px solid $grey-dark;
+        }
     }
+}
+
+@media screen and (max-width: 750px) {
+    .search {
+        &__input {
+            width: 250px;
+        }
+    }
+
 }

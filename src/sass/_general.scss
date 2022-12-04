@@ -1,5 +1,5 @@
 body {
-  min-width: 375px;
+  min-width: 320px;
   font-family: 'PT Root UI', sans-serif;
   font-size: $size-default;
   line-height: $line-default;
@@ -9,6 +9,19 @@ body {
 }
 
 .container {
-  width: 1170px;
+  max-width: 1170px;
   margin: 0 auto;
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    max-width: calc(1150 * $coeff-1200-w);
+    
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .container {
+    max-width: calc(700 * $coeff-750-w);
+  }
 }

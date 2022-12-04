@@ -41,6 +41,34 @@
     }
 }
 
+@media screen and (max-width: 1200px) {
+    .navigation-footer {
+        &__list {
+            justify-content: space-around;
+        }
+    }
+
+    .navigation-header {
+        &__list {
+            justify-content: space-around;
+        }
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .navigation-footer {
+        &__list {
+            flex-direction: column;
+        }
+    }
+
+    .navigation-header {
+        &__list {
+            flex-direction: column;
+        }
+    }
+}
+
 
 
 

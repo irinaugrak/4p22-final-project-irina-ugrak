@@ -2,11 +2,11 @@ import './Navigation.scss';
 import { Link } from "react-router-dom";
 import { useParams } from "react-router-dom";
 
-function Navigation({type}) {
+function Navigation({ type, className="" }) {
     const { category } = useParams();
-    console.log(category);
+    
     return (
-        <nav className={`navigation navigation-${type}`}>
+        <nav className={`navigation navigation-${type} ${className}`}>
             <ul className={`navigation__list navigation-${type}__list`}>
                 <Link to={"/sofas-and-armchairs"} className="navigation__link">
                     <li

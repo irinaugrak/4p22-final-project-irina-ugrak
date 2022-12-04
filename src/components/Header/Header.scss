@@ -43,6 +43,58 @@
     }
 }
 
+@media screen and (max-width: 1200px) {
+   .header {
+    &-bottom {
+        &-inner {
+            flex-direction: column;
+
+            &__search {
+                align-self: flex-end;
+            }
+        }
+    }
+   }
+}
+
+
+@media screen and (max-width: 750px) {
+    .header {
+        &-top {
+            &-inner {
+                flex-direction: column;
+
+                &__logo {
+                    margin-right: 0;
+                    margin-bottom: 20px;
+                }
+
+                &__phone {
+                    margin-bottom: 20px;
+                }
+
+                &__actions {
+                    margin-left: 0;
+                }
+            }
+        }
+   }
+   .header {
+        &-bottom {
+            &-inner {
+                &__search {
+                    align-self: center;
+                    margin-left: 0;
+                }
+
+                &__navigation {
+                    margin-bottom: 20px;
+                }
+            }
+        }
+   }
+}
+
 
 
 
