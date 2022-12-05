@@ -23,7 +23,7 @@ function Card({ id, image, title, price }) {
                 <div className="card__title">{title}</div>
                 <div className="card__price">{price} &#8381;</div>
                 {countInBasket === 0 && <ButtonAdd className="card__btn" onClick={btnAddClick} />}
-                {countInBasket !== 0 && <Counter id={id} />}
+                {countInBasket !== 0 && <Counter className="card__btn" id={id} />}
             </div>
         </Link>
     );

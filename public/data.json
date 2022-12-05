@@ -3,8 +3,8 @@
         "id": "1",
         "code": "111111",
         "category": "tables-and-chairs",
-        "image": "https://dl.dropbox.com/s/kg056w1espwqv5v/chair1.jpg?dl=0",
-        "title": "Стул Баланс",
+        "image": "https://dl.dropbox.com/s/vesf040l7kya8fz/chair10.jpg?dl=0",
+        "title": "Стул Конго",
         "price": 6999
     },
     {
@@ -43,8 +43,8 @@
         "id": "6",
         "code": "666666",
         "category": "tables-and-chairs",
-        "image": "https://dl.dropbox.com/s/kg056w1espwqv5v/chair1.jpg?dl=0",
-        "title": "Стул Баланс",
+        "image": "https://dl.dropbox.com/s/byd814kah7a6h4t/chair6.jpg?dl=0",
+        "title": "Стул Витязь",
         "price": 6999
     },
     {
@@ -77,6 +77,62 @@
         "category": "tables-and-chairs",
         "image": "https://dl.dropbox.com/s/kg056w1espwqv5v/chair1.jpg?dl=0",
         "title": "Стул Баланс",
+        "price": 6999
+    },
+    {
+        "id": "11",
+        "code": "111111",
+        "category": "tables-and-chairs",
+        "image": "https://dl.dropbox.com/s/kg056w1espwqv5v/chair1.jpg?dl=0",
+        "title": "Стул Баланс",
+        "price": 6999
+    },
+    {
+        "id": "12",
+        "code": "121212",
+        "category": "sofas-and-armchairs",
+        "image": "https://dl.dropbox.com/s/fv2dc2hl3z0gy8g/chair7.jpg?dl=0",
+        "title": "Кресло Барон",
+        "price": 6999
+    },
+    {
+        "id": "13",
+        "code": "131313",
+        "category": "cabinets-and-shelving",
+        "image": "https://dl.dropbox.com/s/lie725sppcefb65/cupboard1.jpg?dl=0",
+        "title": "Шкаф Марсель",
+        "price": 6999
+    },
+    {
+        "id": "14",
+        "code": "141414",
+        "category": "sofas-and-armchairs",
+        "image": "https://dl.dropbox.com/s/b5tik2ffp3qr9xl/chair8.jpg?dl=0",
+        "title": "Кресло Артур",
+        "price": 6999
+    },
+    {
+        "id": "15",
+        "code": "151515",
+        "category": "sofas-and-armchairs",
+        "image": "https://dl.dropbox.com/s/r2w0ce284sm096m/chair9.jpg?dl=0",
+        "title": "Кресло Элен",
+        "price": 6999
+    },
+    {
+        "id": "16",
+        "code": "161616",
+        "category": "tables-and-chairs",
+        "image": "https://dl.dropbox.com/s/kg056w1espwqv5v/chair1.jpg?dl=0",
+        "title": "Стул Баланс",
+        "price": 6999
+    },
+    {
+        "id": "17",
+        "code": "171717",
+        "category": "cabinets-and-shelving",
+        "image": "https://dl.dropbox.com/s/5ccbb9ymh0kmy14/cupboard2.jpg?dl=0",
+        "title": "Шкаф Рыцарь",
         "price": 6999
     }
 ]

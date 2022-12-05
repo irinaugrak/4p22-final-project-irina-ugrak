@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { addToBasket, deleteFromBasket } from "../../store/basket/basketSlice";
 import "./Counter.scss";
 
-function Counter({ id }) {
+function Counter({ id, className="" }) {
     const dispatch = useDispatch();
     const countInBasket = useSelector((state) => state.basket[id] ? state.basket[id] : 0);
     const [count, setCount] = useState(0);
@@ -30,7 +30,7 @@ function Counter({ id }) {
         }
     };
     return (
-        <div className="counter">
+        <div className={`counter ${className}`}>
             <button onClick={deleteFromBasketOnClick} className="counter__change counter__minus"></button>
             <input disabled onChange={(e) => setCount(+e.target.value)} value={count} className="counter__num" type="text" />
             <button onClick={addToBasketOnClick} className="counter__change counter__plus"></button>
