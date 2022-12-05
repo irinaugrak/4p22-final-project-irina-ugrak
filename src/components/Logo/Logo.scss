@@ -26,8 +26,15 @@
     }
 }
 
+.logo-header {
+    &__slogan {
+        color: $blue-main;
+    }
+}
+
 .logo-footer {
     &__slogan {
         color: $grey-main;
     }
 }
+

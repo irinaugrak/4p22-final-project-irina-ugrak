@@ -22,3 +22,28 @@
         }
     }
 }
+
+@media screen and (max-width: 1200px) {
+   
+}
+
+@media screen and (max-width: 750px) {
+   .footer-simple {
+    &-top {
+        flex-direction: column;
+        align-items: flex-start;
+
+        &__logo {
+            display: none;
+        }
+
+        &__phone {
+            margin-left: 0;
+        }
+
+        &__copyright {
+            margin-bottom: 10px;
+        }
+    }
+   }
+}

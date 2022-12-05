@@ -1,6 +1,7 @@
 [
     {
         "id": "1",
+        "code": "111111",
         "category": "tables-and-chairs",
         "image": "https://dl.dropbox.com/s/kg056w1espwqv5v/chair1.jpg?dl=0",
         "title": "Стул Баланс",
@@ -8,6 +9,7 @@
     },
     {
         "id": "2",
+        "code": "222222",
         "category": "sofas-and-armchairs",
         "image": "https://dl.dropbox.com/s/c8of0tk3rpjmj9u/chair2.jpg?dl=0",
         "title": "Кресло Ханна",
@@ -15,6 +17,7 @@
     },
     {
         "id": "3",
+        "code": "333333",
         "category": "sofas-and-armchairs",
         "image": "https://dl.dropbox.com/s/y29ewh9409kr7r2/chair3.jpg?dl=0",
         "title": "Кресло Гоа",
@@ -22,6 +25,7 @@
     },
     {
         "id": "4",
+        "code": "444444",
         "category": "tables-and-chairs",
         "image": "https://dl.dropbox.com/s/oe5v3babg34joyg/chair4.jpg?dl=0",
         "title": "Стул Рикардо",
@@ -29,6 +33,7 @@
     },
     {
         "id": "5",
+        "code": "555555",
         "category": "sofas-and-armchairs",
         "image": "https://dl.dropbox.com/s/zp4zb64wi8xasbk/chair5.jpg?dl=0",
         "title": "Кресло Мильтон",
@@ -36,6 +41,7 @@
     },
     {
         "id": "6",
+        "code": "666666",
         "category": "tables-and-chairs",
         "image": "https://dl.dropbox.com/s/kg056w1espwqv5v/chair1.jpg?dl=0",
         "title": "Стул Баланс",
@@ -43,6 +49,7 @@
     },
     {
         "id": "7",
+        "code": "777777",
         "category": "tables-and-chairs",
         "image": "https://dl.dropbox.com/s/kg056w1espwqv5v/chair1.jpg?dl=0",
         "title": "Стул Баланс",
@@ -50,6 +57,7 @@
     },
     {
         "id": "8",
+        "code": "888888",
         "category": "tables-and-chairs",
         "image": "https://dl.dropbox.com/s/kg056w1espwqv5v/chair1.jpg?dl=0",
         "title": "Стул Баланс",
@@ -57,6 +65,7 @@
     },
     {
         "id": "9",
+        "code": "999999",
         "category": "tables-and-chairs",
         "image": "https://dl.dropbox.com/s/kg056w1espwqv5v/chair1.jpg?dl=0",
         "title": "Стул Баланс",
@@ -64,6 +73,7 @@
     },
     {
         "id": "10",
+        "code": "101010",
         "category": "tables-and-chairs",
         "image": "https://dl.dropbox.com/s/kg056w1espwqv5v/chair1.jpg?dl=0",
         "title": "Стул Баланс",

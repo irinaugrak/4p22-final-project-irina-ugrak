@@ -2,13 +2,15 @@ import "./BasketItem.scss";
 import Counter from "../Counter/Counter";
 import ButtonCancel from "../ButtonCancel/ButtonCancel";
 
-function CartItem({ className, id, title, image, code, price }) {
+function BasketItem({ className, id, title, image, code, price }) {
     return (
         <div className={`cart-item ${className}`}>
-            <img className="cart-item__img" width="76" src={image} alt={title} />
-            <div className="cart-item__name">
-                <div className="cart-item__title">{title}</div>
-                <div className="cart-item__code">Код товара {code}</div>
+            <div className="cart-item__info">
+                <img className="cart-item__img" width="76" src={image} alt={title} />
+                <div className="cart-item__name">
+                    <div className="cart-item__title">{title}</div>
+                    <div className="cart-item__code">Код товара {code}</div>
+                </div>
             </div>
             <div className="cart-item__action">
                 <Counter id={id} />
@@ -19,4 +21,4 @@ function CartItem({ className, id, title, image, code, price }) {
     );
 }
 
-export default CartItem;
+export default BasketItem;
